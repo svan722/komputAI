@@ -113,7 +113,7 @@ const K = {
   et = t(
     "div",
     null,
-    [p("Daily Earn "), t("span", { class: "text-lime-400" }, "~13 $KAI")],
+    [p("Daily Earn "), t("span", { class: "text-lime-400" }, "~13 $CPA")],
     -1
   ),
   ot = {
@@ -168,7 +168,7 @@ function lt(m, a, d, w, k, f) {
                         "span",
                         J,
                         y(m.priceInKai.toFixed(2)) +
-                          " KAI (" +
+                          " CPA (" +
                           y(d.datas.sellPrice / 10 ** 18) +
                           " $)",
                         1
